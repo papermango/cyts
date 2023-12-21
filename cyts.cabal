@@ -19,7 +19,7 @@ maintainer:         parthpd24@gmail.com
 -- A copyright notice.
 -- copyright:
 -- category:
-extra-source-files: CHANGELOG.md
+extra-source-files: CHANGELOG.md, README.md
 
 library
     exposed-modules: Machine, Parsing
