@@ -26,3 +26,6 @@ cabal.project.local~
 
 # For analysing CSVs
 *.xlsx
+
+# Ignore python venv
+venv/
