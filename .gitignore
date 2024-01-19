@@ -28,4 +28,4 @@ cabal.project.local~
 *.xlsx
 
 # Ignore python venv
-venv/
+torch/
