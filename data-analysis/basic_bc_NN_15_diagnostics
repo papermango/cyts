@@ -1,0 +1,23 @@
+Using device cpu
+Sequential(
+  (0): Linear(in_features=3, out_features=5, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=5, out_features=5, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=5, out_features=1, bias=True)
+  (5): Sigmoid()
+)
+5 epochs, batch size 75 on training set of 2700 datapoints
+Finished epoch 0, latest loss 0.6375002861022949
+Finished epoch 1, latest loss 0.6172397136688232
+Finished epoch 2, latest loss 0.6010852456092834
+Finished epoch 3, latest loss 0.5878480076789856
+Finished epoch 4, latest loss 0.5746302604675293
+
+Accuracy on training dataset: 71.8148%, 1939 correct labels out of 2700
+Accuracy on test dataset: 70.5185%, 476 correct labels out of 675
+
+756 false positives and 5 false negatives on training dataset
+197 false positives and 2 false negatives on test dataset
+Type I error (α): 28.0000% training, 29.1852% test
+Type II error (β): 0.1852% training, 0.2963% test
